@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>index</title>
+	<link rel="stylesheet" href="main.css" type="text/css" charset="utf-8">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- Date: 2012-11-13 -->
+</head>
+<body class="index">
+
+<div class="include-file" file="header.html"></div>
+
+<div id="main">
+	<div class="container clfix">
+		
+		<div class="introboxes clfix">
+			<div class="intro">
+				<h2>Personalize Recomendations &amp; Increase Sales</h2>
+				<p>Spent's API connects to any point of sale system, and starts working instantly. We use your customer's past purchases and shopper history to send relevant, targeted recommendations when they're likely to take action.</p>
+			</div>
+			<div class="demo">
+				<h3>Sign Up For A Demo</h3>
+				<form>
+					<input type="text" placeholder="First Name" class="sm right">
+					<input type="text" placeholder="Last Name" class="sm left">
+					<input type="text" placeholder="Store Name">
+					<input type="text" placeholder="Phone Number">
+					<input type="text" placeholder="Email Address">				
+				</form>
+				<a href="#" class="btn dropped">Sign Me Up!</a>
+			</div>
+		</div>
+		
+		<!--LeftRail-->
+		<div class="leftrail clfix">
+			<!---->
+			<h3>Spent Provides Value for Your Store, <em>and</em> Your Customers</h3>
+			<div class="box left">
+				<h4>Stores</h4>
+				<img src="http://placehold.it/278x78" class="border">
+				<ul>
+					<li><span class="icnsprite graph">&nbsp;</span>Increase sales &amp; unit growth</li>
+					<li><span class="icnsprite cog">&nbsp;</span>Automated marketing to targeted customers</li>
+					<li><span class="icnsprite globe">&nbsp;</span>Real time tracking to all actions and purchases</li>
+				</ul>
+			</div>
+			<div class="box right">
+				<h4>Customers</h4>
+				<img src="http://placehold.it/278x78" class="border">
+				<ul>
+					<li><span class="icnsprite tag">&nbsp;</span>Recommendations based on what they buy</li>
+					<li><span class="icnsprite cart">&nbsp;</span>More loyalty for your store</li>
+					<li><span class="icnsprite smiley">&nbsp;</span>Better shopping experience and more efficiency</li>
+				</ul>
+			</div>
+			<div class="cl">&nbsp;</div>
+			<!---->
+			<h3>Easy Setup, Easy Maintenance</h3>
+			<div class="box left">
+				<h4>Channel Distribution</h4>
+				<img src="http://placehold.it/278x78" class="border">
+				<ul>
+					<li><span class="icnsprite text">&nbsp;</span>Message</li>
+					<li><span class="icnsprite mail">&nbsp;</span>Email</li>
+					<li><span class="icnsprite pos">&nbsp;</span>In-store</li>
+					<li><span class="icnsprite iphone">&nbsp;</span>Mobile app</li>
+				</ul>
+			</div>
+			<div class="box right">
+				<h4>Technical &amp; Marketing Support</h4>
+				<img src="http://placehold.it/278x78" class="thumb">
+				<ul>
+					<li><span class="icnsprite doc">&nbsp;</span>API documentation</li>
+					<li><span class="icnsprite chat">&nbsp;</span>Technical support and live chat</li>
+					<li><span class="icnsprite guide">&nbsp;</span>Marketing startup guide</li>
+				</ul>
+			</div>			
+		</div>
+		
+		<!--RightRail-->
+		<div class="include-file" file="rightrail.html"></div>
+	</div>
+</div>
+
+<div class="include-file" file="footer.html"></div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".include-file").each (function () {
+	    	$(this).load($(this).attr('file'));
+	    });
+	});
+</script>
+
+</body>
+</html>

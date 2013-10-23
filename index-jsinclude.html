@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<title>Title</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  	</head>
+  	<body class="body">
+		<div class="include-file" file="header.html">
+		</div>
+		<div class="include-file" file="nav.html">
+		</div>
+		<div>
+			Test change for commit
+		</div>
+		<div class="include-file" file="nav.html">
+		</div>
+		<div class="include-file" file="footer.html">
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".include-file").each (function () {
+		    	$(this).load($(this).attr('file'));
+		    });
+		});
+	</script>
+</html>

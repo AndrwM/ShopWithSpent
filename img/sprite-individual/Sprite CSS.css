@@ -1,0 +1,87 @@
+.index-sprite {
+    background: url(download.png) no-repeat;
+}
+
+.index-sprite-cart-png {
+    width: 18px;
+    height: 16px;
+    background-position: -29px -81px;
+}
+
+.index-sprite-chat-png {
+    width: 18px;
+    height: 16px;
+    background-position: -0px -81px;
+}
+
+.index-sprite-cog-png {
+    width: 18px;
+    height: 16px;
+    background-position: -87px -54px;
+}
+
+.index-sprite-doc-png {
+    width: 18px;
+    height: 16px;
+    background-position: -58px -54px;
+}
+
+.index-sprite-glode-png {
+    width: 18px;
+    height: 16px;
+    background-position: -29px -54px;
+}
+
+.index-sprite-graph-png {
+    width: 18px;
+    height: 16px;
+    background-position: -0px -54px;
+}
+
+.index-sprite-huide-png {
+    width: 18px;
+    height: 16px;
+    background-position: -87px -27px;
+}
+
+.index-sprite-iphone-png {
+    width: 18px;
+    height: 16px;
+    background-position: -58px -27px;
+}
+
+.index-sprite-mail-png {
+    width: 18px;
+    height: 16px;
+    background-position: -29px -27px;
+}
+
+.index-sprite-register-png {
+    width: 18px;
+    height: 16px;
+    background-position: -0px -27px;
+}
+
+.index-sprite-smile-png {
+    width: 18px;
+    height: 16px;
+    background-position: -87px -0px;
+}
+
+.index-sprite-tag-png {
+    width: 18px;
+    height: 16px;
+    background-position: -58px -0px;
+}
+
+.index-sprite-twitter-png {
+    width: 18px;
+    height: 16px;
+    background-position: -29px -0px;
+}
+
+.index-sprite-userchat-png {
+    width: 18px;
+    height: 16px;
+    background-position: -0px -0px;
+}
